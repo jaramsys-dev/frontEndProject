@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="userstyle.css">
+        <script src="api.js"></script>
+        <title>
+            Registration Page
+        </title>
+    </head>
+    <body>
+        <form id="regUserForm" onsubmit="saveNewUser(event)">
+            <div class="loginDiv">
+                <h1>Register New User</h1>  
+                <div class="innerDiv">
+                    <div>
+                        <span>User Name</span><span>*</span>
+                    </div>
+                    <div>
+                        <input type="text" onkeydown="regUserNameChanged()" class="inputbox" id="userName" name="userName">
+                    </div>
+                    <div id="userNameDisc" style="display: none;">
+                        <span class="disc" id="usermsg"></span>
+                    </div>
+                    <div>
+                        <span>Password</span><span>*</span>
+                    </div>
+                    <div>
+                        <input type="password" onkeydown="regPasswordChanged()" class="inputbox" id="password" name="password">
+                    </div>
+                    <div id="passwordDisc" style="display: none;">
+                        <span class="disc" id="passmsg">User Name Already Exists</span>
+                    </div>
+                    <div>
+                        <span>Repeat Password</span><span>*</span>
+                    </div>
+                    <div>
+                        <input type="password" onkeydown="regRPasswordChanged()" class="inputbox" id="rPassword" name="rPassword">
+                    </div>
+                    <div id="rPassDisc" style="display: none;">
+                        <span class="disc" id="rPmsg"></span>
+                    </div>
+                    
+                  </div>
+                  <div class="buttonDiv">
+                        <button type="reset">Reset</button>
+                        <button type="submit">Create</button>
+                  </div>
+            </div>
+        </form>
+
+    </body>
+</html>    

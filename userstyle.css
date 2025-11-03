@@ -1,0 +1,113 @@
+body{
+    background-color: bisque;
+}
+.buttonDiv{
+    align-items: center;
+}
+#age{
+    width: 40px;
+}
+
+.loginDiv{
+    background-color: cadetblue;
+    width: 30%;
+    margin: auto;
+    border: 5px solid;
+}
+.loginDiv h1{
+    text-align: center;
+    margin-top: 10px;
+    background-color: cyan;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: brown;
+    
+}
+.innerDiv{
+    background-color: aliceblue;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+    border: 3px solid;
+    border-color: gray;
+    padding: 10px;
+}
+
+.innerDiv span{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.innerDiv label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: smaller;
+}
+
+.disc{
+    font-size: 10px;
+    color: red;
+}
+
+.outerDiv h1{
+    text-align: center;
+    background-color: chocolate;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: cornsilk;
+}
+
+.btnRegDiv{
+    margin: auto;
+    text-align: center;
+    
+}
+.innerDiv input{
+    font-weight: lighter;
+    font-size: large;
+}
+.regUserDiv{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: red;
+}
+.regUserDiv a{
+    color: red;
+}
+
+.inputbox{
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* #userName{
+    width: 100%;
+    border-radius: 10px;
+}
+
+#password{
+    width: 100%;
+        border-radius: 10px;
+} */
+
+.innerDiv div{
+    margin-top: 10px;
+}
+#showPass{
+    position: relative;
+    top: 3px;
+} 
+.buttonDiv{
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.buttonDiv button{
+    border-radius: 10px;
+    width: 30%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+.regUserDiv label{
+    cursor: pointer;
+}

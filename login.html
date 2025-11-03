@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="userstyle.css">
+        <script src="api.js"></script>
+        <title>
+            Login Page
+        </title>
+    </head>
+    <body class="loginBody" onload="loadPage()">
+
+        <form onsubmit="login(event)">
+        <div class="loginDiv">
+            <h1>Login</h1>
+            <div class="innerDiv">
+                <div>
+                    <span>User Name</span><span>*</span>
+                </div>
+                <div>
+                    <input type="text" class="inputbox" id="userName" name="userName" onkeypress="uNameChanged()">
+                </div>
+                <div id="uNameDisc" style="display: none;">
+                    <span class="disc">Enter User Name</span>
+                </div>
+                <div>
+                    <span>Password</span><span>*</span>
+                </div>
+                <div>
+                    <input type="password" class="inputbox"  id="password" name="password" onkeypress="passwordChanged()">
+                </div>
+                <div id="passwordDisc" style="display: none;">
+                    <span class="disc">Enter Password</span>
+                </div>
+                <div><label>Show Password</label><input type="checkbox" id="showPass" name="showPass" value="show">
+                </div>                
+            </div>
+            <div class="buttonDiv">
+                <button type="reset">Reset</button>
+                <button type="submit">Login</button>
+            </div>
+        </div>
+        </form>
+        <div class="regUserDiv">
+            <label onclick="openRegPage()">New User? Register here.</label>
+        </div>
+        <script>
+            let check = document.getElementById("showPass").addEventListener("change",showPassword);
+        </script>
+    </body>
+</html>
